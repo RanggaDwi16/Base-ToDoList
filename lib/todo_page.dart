@@ -1,9 +1,9 @@
 import 'package:base_todolist/item_list.dart';
 import 'package:flutter/material.dart';
-import 'model/DataList.dart';
+import 'model/todo.dart';
 
 class TodoPage extends StatelessWidget {
-  final DataList dataList;
+  final Todo dataList;
   const TodoPage({super.key, required this.dataList});
 
   @override

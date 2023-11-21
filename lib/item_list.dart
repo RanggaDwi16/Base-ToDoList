@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'model/DataList.dart';
+import 'model/todo.dart';
 
 class ItemList extends StatelessWidget {
-  final DataList dataList;
+  final Todo dataList;
   const ItemList({super.key, required this.dataList});
 
   @override

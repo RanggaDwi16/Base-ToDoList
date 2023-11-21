@@ -1,23 +1,23 @@
-class DataList {
+class Todo {
   final String nama;
   final String deskripsi;
 
-  DataList({
+  Todo({
     required this.nama,
     required this.deskripsi,
   });
 }
 
-List<DataList> listdata = [
-  DataList(
+List<Todo> listdata = [
+  Todo(
     nama: 'Studi Kasus 1',
     deskripsi: 'Membuat Program Dasar Java',
   ),
-  DataList(
+  Todo(
     nama: 'Studi Kasus 2',
     deskripsi: 'Membuat Studi Kasus List Makanan',
   ),
-  DataList(
+  Todo(
     nama: 'Studi Kasus 3',
     deskripsi: 'Membuat Aplikasi To Do List',
   ),

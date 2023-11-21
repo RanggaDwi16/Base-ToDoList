@@ -1,4 +1,4 @@
-import 'package:base_todolist/model/DataList.dart';
+import 'package:base_todolist/model/todo.dart';
 import 'package:flutter/material.dart';
 import 'todo_page.dart';
 import 'register_page.dart';
